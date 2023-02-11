@@ -1,11 +1,23 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../../../assets/logo/HBR-Learning.png";
 
 const Navbar = () => {
-    return (
-        <div>
-            <h1>Here wee need to implement the navbar</h1>
-        </div>
-    );
+  return (
+    <nav className="flex justify-between items-center px-[10%] py-3">
+      <div className="logo h-20">
+        <Link to ="/"><img src={logo} alt=""  className="h-20 w-full"/></Link>
+      </div>
+      <div className="menu">
+        <ul className="flex gap-4 text-xl">
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/"><li>Courses</li></Link>
+            <Link to="/"><li>About us</li></Link>
+            <Link to="/"><li>Contacts</li></Link>
+        </ul>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;

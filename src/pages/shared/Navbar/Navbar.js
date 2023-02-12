@@ -4,7 +4,7 @@ import logo from "../../../assets/logo/HBR-Learning.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center px-[10%] py-3">
+    <nav className="flex justify-between items-center py-3">
       <div className="logo h-20">
         <Link to ="/"><img src={logo} alt=""  className="h-20 w-full"/></Link>
       </div>

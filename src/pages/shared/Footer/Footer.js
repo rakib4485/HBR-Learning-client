@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-slate-600 w-full h-[2px] rounded-sm my-8"></div>
-            <p className="text-center">© 2023 HBR Learning.</p>
+            <p className="text-center ">© 2023 HBR Learning.</p>
         </div>
     );
 };

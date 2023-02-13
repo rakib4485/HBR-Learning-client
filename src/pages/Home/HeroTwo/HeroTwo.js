@@ -11,7 +11,7 @@ const HeroTwo = () => {
                     <button className='bg-gradient-to-l from-cyan-500 to-green-600 p-3 rounded-md text-white'>Learn More</button>
                 </div>
                 <div>
-                    <img src={heroTwoImg} alt="" />
+                    <img src={heroTwoImg} alt="BannerTwoImg" />
                 </div>
                 
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 import banner1 from '../../../assets/banner/banner-1.jpg'
 import banner2 from '../../../assets/banner/banner-2.jpg'
 import banner3 from '../../../assets/banner/banner-3.jpg'
@@ -44,21 +44,24 @@ const Hero = () => {
         setCurrentSlide(slideIndex)
     }
 
-    setInterval(() => {
-        setCurrentSlide(currentSlide + 1);
-        if(currentSlide === slides.length - 1){
-            setCurrentSlide(0)
-        }
-    }, 5000);
+    // setInterval(() => {
+    //     setCurrentSlide(currentSlide + 1);
+    //     console.log('from out side', currentSlide)
+    //     if(currentSlide === slides.length - 1){
+    //         console.log(currentSlide)
+    //         setCurrentSlide(0)
+    //     }
+    // }, 5000);
+
 
     return (
         <div className='h-[600px] w-full m-auto py-16 relative group'>
             <div
              style={{background:`linear-gradient(rgba(18, 17, 17, 0.5), rgba(25, 23, 23, 0.5)), url(${slides[currentSlide].image})`}}
-             className="w-full h-full rounded-2xl bg-center bg-cover duration-500 text-center items-center text-white">
-                <div className="w-[70%] mx-auto pt-32 ">
-                <h1 className="text-5xl font-bold">{slides[currentSlide].heading}</h1>
-                <p className="text-md my-5">{slides[currentSlide].text}</p>
+             className="w-full h-full rounded-md bg-center bg-cover duration-500 text-center items-center text-white">
+                <div className="md:w-[70%] mx-auto pt-32 ">
+                <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold">{slides[currentSlide].heading}</h1>
+                <p className="md:text-md my-5">{slides[currentSlide].text}</p>
                 <div className="flex justify-center">
                 <Link className='px-5 py-3 bg-cyan-400 rounded-3xl flex items-center justify-center w-44'>Get Started <RxPinRight className='ml-2 text-2xl'></RxPinRight></Link>
                 </div>
@@ -78,7 +81,7 @@ const Hero = () => {
             <div className="flex top-4 justify-center py-2">
                 {slides.map((slide, slideIndex) => (
                     <div key={slideIndex} onClick={ () => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
-                        <RxDotFilled />
+                        <RxDotFilled className={`${currentSlide === slideIndex ? "text-white text-3xl" : ""}`}/>
                     </div>
                 ))}
             </div>

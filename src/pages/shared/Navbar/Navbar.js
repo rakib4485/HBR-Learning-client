@@ -5,9 +5,9 @@ import logo from "../../../assets/logo/HBR-Learning.png";
 const Navbar = () => {
   const menuItems = [
     { name: "Home", link: "/" },
-    { name: "Courses", link: "/" },
-    { name: "About", link: "/" },
-    { name: "Contacts", link: "/" },
+    { name: "Courses", link: "/courses" },
+    { name: "About", link: "/about" },
+    { name: "Contacts", link: "/contacts" },
   ]
 
   const [open, setOpen] = useState(false)

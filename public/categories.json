@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "01",
+        "category-id": "01",
+        "name": "Web Development",
+        "image": "https://i.ibb.co/tcPqMqC/course1.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "02",
+        "category-id": "02",
+        "name": "App Development",
+        "image": "https://i.ibb.co/JKRzCfN/course2.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "03",
+        "category-id": "03",
+        "name": "Business",
+        "image": "https://i.ibb.co/bHL480r/course3.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "04",
+        "category-id": "04",
+        "name": "Management",
+        "image": "https://i.ibb.co/0YZQp5Y/course4.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "05",
+        "category-id": "05",
+        "name": "Marketing",
+        "image": "https://i.ibb.co/h1c4Gbh/course5.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "06",
+        "category-id": "06",
+        "name": "Design",
+        "image": "https://i.ibb.co/ScRtdLF/course6.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "07",
+        "category-id": "07",
+        "name": "SEO",
+        "image": "https://i.ibb.co/8P7CpZz/course7.jpg",
+        "courses": "15"
+    },
+    {
+        "_id": "08",
+        "category-id": "08",
+        "name": "Human Resource",
+        "image": "https://i.ibb.co/71kdtLX/course8.jpg",
+        "courses": "15"
+    }
+]

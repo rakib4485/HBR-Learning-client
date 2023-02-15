@@ -1,4 +1,5 @@
 import React from 'react';
+import Loader from '../../../components/Loader/Loader';
 import Categories from '../Categories/Categories';
 import Explore from '../Explore/Explore';
 import Hero from '../Hero/Hero';
@@ -12,10 +13,11 @@ const Home = () => {
         <div>
             <Hero></Hero>
             <Explore></Explore>
-            <Categories></Categories>
-            <HeroTwo></HeroTwo>
-            <TrendingCourses></TrendingCourses>
             <Support></Support>
+            <TrendingCourses></TrendingCourses>
+            <HeroTwo></HeroTwo>
+            <Categories></Categories>
+            
             <Review></Review>
         </div>
     );

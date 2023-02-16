@@ -4,21 +4,33 @@
         "category-id": "01",
         "name": "Web Development",
         "image": "https://i.ibb.co/tcPqMqC/course1.jpg",
-        "courses": "15"
+        "courses": "15",
+        "courseimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZ3JFpC3iDEyFkoKpR4QVW1hBt74zsI_4YQ&usqp=CAU",
+        "coursename": "Data Structure with algorithm",
+        "courseprice": "12",
+        "courserating": "5"
     },
     {
         "_id": "02",
         "category-id": "02",
         "name": "App Development",
         "image": "https://i.ibb.co/JKRzCfN/course2.jpg",
-        "courses": "15"
+        "courses": "15",
+        "courseimage": "https://www.simplilearn.com/ice9/webinar_thum_image/CPP_Tutorial.jpg",
+        "coursename": "C++ For Beginners",
+        "courseprice": "10",
+        "courserating": "4"
     },
     {
         "_id": "03",
         "category-id": "03",
         "name": "Business",
         "image": "https://i.ibb.co/bHL480r/course3.jpg",
-        "courses": "15"
+        "courses": "15",
+        "courseimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmfRU99qmDQYDcaCYvs0Uum-guemO2gEoRuQ&usqp=CAU",
+        "coursename": "Basic C Programing",
+        "courseprice": "9",
+        "courserating": "3"
     },
     {
         "_id": "04",

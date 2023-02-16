@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "01",
+        "courseimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKxQNOVPgua4LJD9EeQJ-OMQyJoHSK2_AkYmIyMuu8U-cWLvaeT2932fh1R9l8P_K-M4&usqp=CAU",
+        "coursename": "Data Structure with algorithm",
+        "courseprice": "12",
+        "courserating": "5"
+    },
+    {
+        "_id": "02",
+        "courseimage": "https://www.simplilearn.com/ice9/webinar_thum_image/CPP_Tutorial.jpg",
+        "coursename": "C++ For Beginners",
+        "courseprice": "10",
+        "courserating": "4"
+    },
+    {
+        "_id": "03",
+        "courseimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmfRU99qmDQYDcaCYvs0Uum-guemO2gEoRuQ&usqp=CAU",
+        "coursename": "Basic C Programing",
+        "courseprice": "9",
+        "courserating": "3"
+    }
+]
